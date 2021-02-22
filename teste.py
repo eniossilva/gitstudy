@@ -4,7 +4,7 @@ line3=['mike','jack','ram']
 
 all_data = [line1] + [line2] + [line3]
 
-count = 3
+count = 7
 
 for data in all_data:
     output = open('data/file' + str(count) + '.txt', 'w')
